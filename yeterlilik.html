@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokuyucu Sürücü Kursu</title>
+</head>
+        <link rel="stylesheet" href="style.css">
+<body>
+    <div id="navbar">
+       <h1 id="navbarbaslik">Dokuyucu Sürücü Kursu</h1>
+      <ul>
+            <li><a href="yeterlilik.html">Yeterlilik Hesaplama</a></li>
+            <li><a href="yas.html">Fiyat Hesaplama</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </div>
+   
+    
+    <div class="form-container">
+        <form>
+          <label for="age">Yaş:</label>
+          <input type="number" id="age" name="age" required />
+    
+          <label for="citizenship-points">Vatandaşlık Puanı:</label>
+          <input type="number" id="citizenship-points" name="citizenship-points" required />
+    
+          <label for="license-type">Ehliyet Türü:</label>
+          <select id="license-type" name="license-type">
+            <option value="motor-ehliyeti">Motor Ehliyeti</option>
+            <option value="araba-ehliyeti">Araba Ehliyeti</option>
+            <option value="kamyon-ehliyeti">Tır Ehliyeti</option>
+          </select>
+    
+          <input type="submit" value="Gönder" />
+        </form>
+    
+        <div class="result-container">
+          <h2>Sonuç:</h2>
+          <p>Buraya sonucunuz gelecek.</p>
+        </div>
+      </div>
+      
+
+
+
+      
+   <script src="yeterlilik.js"></script>
+      
+</body>
+</html>

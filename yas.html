@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokuyucu Sürücü Kursu</title>
+</head>
+        <link rel="stylesheet" href="style.css">
+<body>
+    <div id="navbar">
+       <h1 id="navbarbaslik">Dokuyucu Sürücü Kursu</h1>
+      <ul>
+            <li><a href="yeterlilik.html">Yeterlilik Hesaplama</a></li>
+            <li><a href="yas.html">Fiyat Hesaplama</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </div>
+    
+
+    <div id="form-container">
+        <form id="surdurucu-form" method="POST">
+            <label for="yas">Yaşınız:</label>
+            <input type="number" id="yas" name="yas" required><br><br>
+            
+            <label for="cinsiyet">Cinsiyetiniz:</label>
+            <select id="cinsiyet" name="cinsiyet" required>
+                <option value="">Lütfen bir seçim yapın</option>
+                <option value="erkek">Erkek</option>
+                <option value="kadin">Kadın</option>
+                <option value="diger">Diğer</option>
+            </select><br><br>
+            
+            <label for="ehliyet">Almak istediğiniz ehliyet:</label>
+            <select id="ehliyet" name="ehliyet" required>
+                <option value="">Lütfen bir seçim yapın</option>
+                <option value="A">A (Motor)</option>
+                <option value="B">B (Otomobil)</option>
+                <option value="C">C (Kamyon)</option>
+                <option value="D">D (Otobüs)</option>
+            </select><br><br>
+            
+            <button type="submit">Gönder</button>
+        </form>
+
+        <div id="sonuc-container">
+            <p id="sonuc"></p>
+        </div>
+    </div>
+      
+
+    <script src="yas.js"></script>
+</body>
+</html>

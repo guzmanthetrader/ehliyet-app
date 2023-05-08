@@ -1,0 +1,305 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-ryan-west-1719648.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width:100%;
+}
+
+#navbar {
+    background-color: #4f4f4f;
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #555;
+  }
+  
+  #navbar #navbarbaslik {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+  }
+  
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+  }
+  
+  #slogan {
+    position: absolute;
+    top:25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:40px;
+    background-color: #4f4f4f;
+    color:white;
+    border-radius:4px;
+    padding:10px;
+  }
+
+  #slogan:hover {
+    background-color: #555;
+  }
+  
+  .box {
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .box:hover {
+    background-color: #ddd;
+  }
+  
+  
+ 
+
+  /*  yeterlilik */
+
+
+
+  .form-container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #4f4f4f;
+    color: #fff;
+
+  }
+  
+  .form-container input,
+  .form
+  .form-container select {
+    display: block;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    }
+    
+    .form-container input[type="number"],
+    .form-container select {
+    height: 40px;
+    }
+    
+    .form-container input[type="submit"] {
+    background-color: #4f4f4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .form-container input[type="submit"]:hover {
+    background-color: #fff;
+    color: #4f4f4f;
+    border: 1px solid #4f4f4f;
+    }
+    
+    .result-container {
+    margin-top: 16px;
+    }
+    
+    .result-container h2 {
+    margin-bottom: 8px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #4f4f4f;
+    color: #fff;
+    }
+    
+    .result-container p {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 40px;
+    }
+
+
+    /* yaş */
+
+    #form-container {
+        background-color: #fff;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      #form-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        padding: 8px;
+        background-color: #4f4f4f;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+      }
+      
+      #form-container select,
+      #form-container input[type="number"] {
+        display: block;
+        margin-bottom: 16px;
+        width: 100%;
+        padding: 8px;
+        border-radius: 0 0 4px 4px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        height: 40px;
+      }
+      
+      #form-container button[type="submit"] {
+        background-color: #4f4f4f;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      #form-container button[type="submit"]:hover {
+        background-color: #fff;
+        color: #4f4f4f;
+        border: 1px solid #4f4f4f;
+      }
+      
+      #sonuc-container {
+        margin-top: 16px;
+      }
+      
+      #sonuc-container h2 {
+        margin-bottom: 8px;
+        font-weight: bold;
+        padding: 8px;
+        background-color: #4f4f4f;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+      }
+      
+      #sonuc-container p {
+        padding: 16px;
+        background-color: #f5f5f5;
+        border-radius: 0 0 4px 4px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        height: 40px;
+      }
+      
+
+      #iletisim-formu {
+        background-color: #fff;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #iletisim-formu h2 {
+          margin-bottom: 16px;
+          font-weight: bold;
+          padding: 8px;
+          background-color: #4f4f4f;
+          color: #fff;
+          border-radius: 4px 4px 0 0;
+        }
+        
+        #iletisim-formu label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: bold;
+          padding: 8px;
+          background-color: #4f4f4f;
+          color: #fff;
+          border-radius: 4px 4px 0 0;
+        }
+        
+        #iletisim-formu input[type="text"],
+        #iletisim-formu textarea {
+          display: block;
+          margin-bottom: 16px;
+          width: 100%;
+          padding: 8px;
+          border-radius: 0 0 4px 4px;
+          border: 1px solid #ccc;
+          font-size: 16px;
+          height: 40px;
+        }
+        
+        #iletisim-formu input[type="submit"] {
+          background-color: #4f4f4f;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          padding: 12px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+        
+        #iletisim-formu input[type="submit"]:hover {
+          background-color: #fff;
+          color: #4f4f4f;
+          border: 1px solid #4f4f4f;
+        }
+      
